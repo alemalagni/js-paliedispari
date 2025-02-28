@@ -6,7 +6,7 @@ function palindroma(word) {
         pal = word[i] + pal;
     }
     
-    if ( pal.toString() === word ) {
+    if ( pal === word ) {
         console.log("La parola è palindroma")
     } else {
         console.log("La parola non è palindroma")
