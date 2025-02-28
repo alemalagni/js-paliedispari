@@ -13,3 +13,4 @@ function palindroma(word) {
 
 // Script
 const word = prompt("Inserire la parola");
+palindroma(word);
