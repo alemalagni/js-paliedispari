@@ -1,4 +1,7 @@
 // Funzione
+function genCpu() {
+    return parseInt(Math.random() * 5 + 1);
+}
 
 // Script
 const scelta = prompt("Scegliere tra pari e dispari");
