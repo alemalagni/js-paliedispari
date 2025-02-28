@@ -1,10 +1,12 @@
 // Funzione
 function palindroma(word) {
     let pal = "";
-    for (let i  = word.length; i > 0; i--) {
-        pal[ word.length - i ] = word[i];
+
+    for (let i  = 0; i < word.length; i++) {
+        pal = word[i] + pal;
     }
-    if ( pal === word ) {
+    
+    if ( pal.toString() === word ) {
         console.log("La parola è palindroma")
     } else {
         console.log("La parola non è palindroma")
