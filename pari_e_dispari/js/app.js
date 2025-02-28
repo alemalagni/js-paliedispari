@@ -14,6 +14,7 @@ if ( scelta != pari || scelta != dispari ) {
     if ( numUser < 1 || numUser > 5 ) {
         console.log("Scelta non valida");
     } else {
-        
+        let tot = numUser + genCpu();
+        risultato(tot);
     }
 }
