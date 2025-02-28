@@ -9,7 +9,7 @@ function risultato(tot) {
 
 // Script
 const scelta = prompt("Scegliere tra pari e dispari");
-if ( scelta != "pari" || scelta != "dispari" ) {
+if ( scelta != "pari" && scelta != "dispari" ) {
     console.log("Scelta non valida");
 
 } else {
