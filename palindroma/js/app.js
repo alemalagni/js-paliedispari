@@ -1,6 +1,6 @@
 // Funzione
 function palindroma(word) {
-    let pal = null;
+    let pal = "";
     for (let i  = word.length; i > 0; i--) {
         pal[ word.length - i ] = word[i];
     }
